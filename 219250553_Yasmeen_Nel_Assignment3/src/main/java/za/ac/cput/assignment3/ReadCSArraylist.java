@@ -263,50 +263,6 @@ public class ReadCSArraylist{
      
 }
     
-    
-    /*public class IdComparator implements Comparator<Customer>{
-    @Override
-    public int compare (Customer o1, Customer o2)
-            return o1.getStHolderId().compareTo(o2.getStHolderId());
-    }*/
-    
-   /* public void Age() throws ParseException{
-      try{
-            for(int i =0; i<11;i++){
-                Cus = input.readObject();
-                if(Cus.getClass()==Customer.class){
-                Customer = (Customer)Cus;
-                customer.add(Customer);  
-     String s = Customer.getDateOfBirth();
-  SimpleDateFormat sdf = new SimpleDateFormat("yyyy/MM/dd");
-  Date d = sdf.parse(s);
-  Calendar c = Calendar.getInstance();
-  c.setTime(d);
-  int year = c.get(Calendar.YEAR);
-  int month = c.get(Calendar.MONTH) + 1;
-  int date = c.get(Calendar.DATE);
-  LocalDate l1 = LocalDate.of(year, month, date);
-  LocalDate now1 = LocalDate.now();
-  Period diff1 = Period.between(l1, now1);
-  System.out.println("age:" + diff1.getYears() + "years");
-  System.out.println(Customer);
-                }
-            }
-            System.out.println(customer.size());
-            //customer.sort;
-            
-        }
-        catch(ClassNotFoundException ioe ){
-            System.out.println("Class error"+ioe);
-        }
-        catch(IOException ioe){
-            System.out.println("Error reading ser file"+ioe);
-        }
-        finally{
-            closeFile();
-            System.out.println("*** file has been closed ***");               
-        }
-    }*/
 
     
         
